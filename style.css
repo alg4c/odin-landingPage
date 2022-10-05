@@ -1,0 +1,99 @@
+* {
+  border: solid 1px pink;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 48px;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 8px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding: 40px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+h1 {
+  display: inline;
+}
+
+h2 {
+  text-align: center;
+}
+
+#quote div {
+  width: 300px;
+}
+
+#quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-mod {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.cta {
+  background-color: lightblue;
+}
+
+.hero {
+  margin: 40px;
+  display: flex;
+}
+
+.hero div {
+  flex: auto;
+  width: 50%;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right img {
+  height: 80%;
+  width: 80%;
+  border-radius: 0%;
+}
